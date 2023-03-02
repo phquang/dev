@@ -1,0 +1,6 @@
+Namespace(adapt=False, adapt_lr=0.1, augmentation=False, batch_size=64, batches_per_example=1, beta=0.3, clip=0.5, cuda=True, data_file='mini', data_path='/data5/quang/data/nico/', decay=5, emb_dim=64, gamma=1, grad_sampling_sz=256, inner_steps=1, keep_min='yes', lr=0.003, memory_strength=1.0, model='dualnet_ta', n_epochs=100, n_memories=100, n_outer=1, n_runs=3, n_tasks=6, n_val=0.2, pretrained=False, reg=1.0, replay_batch_size=10, samples_per_task=-1, save_path='results/', seed=0, shuffle_tasks='no', task_mask=[[0, 1, 2, 3, 4, 5, 6, 7, 8, 9], [10, 11, 12, 13, 14, 15, 16, 17, 18, 19], [20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [32, 33, 34, 35, 36, 37, 38, 39, 30, 31], [40, 41, 42, 43, 44, 45, 46, 47, 48, 49]], temperature=1.0, test_csv='data/core50_te.csv', train_csv='s_pl', use=0.5, valid=True)
+
+Final test Accuracy: 0.62433 +/- 0.0224
+Final test Forget: 0.01200 +/- 0.0082
+Final test LA: 0.61733 +/- 0.0116
+Final test BWT: 0.00700 +/- 0.01818
